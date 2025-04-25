@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Kanji to Hiragana</title>
+  <link rel="stylesheet" href="index.css"
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Gochi+Hand&family=Jua&family=Mochiy+Pop+P+One&family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="header">
+    <div class="Title">ひらがな化</div>
+  </div>
+  <div class="container">
+    <div class="input-box">
+      <textarea id="input-text" rows="4" cols="30" placeholder="日本語の文を入力してください..."></textarea>
+      <br>
+      <button id="button">Convert to Hiragana</button>
+    </div>
+    <div class="results">
+      <div id="output-text" style="white-space: pre-wrap;"></div>
+    </div>
+    <img class="zenitsu" src="images/zenitsu_sleeping.gif"></img>
+  </div>
+  
+  <script src="renderer.js"></script>
+</body>
+</html>
+  
